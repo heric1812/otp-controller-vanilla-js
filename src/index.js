@@ -99,7 +99,6 @@ function focusOnCurrentItem(value) {
     otpItems[listValue.length].classList.add("pointertext");
   } else {
     otpItems[otpItems.length - 1].classList.add("active");
-    // otpItems[otpItems.length - 1].classList.add("pointertext");
   }
 }
 
